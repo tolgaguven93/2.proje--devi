@@ -25,7 +25,8 @@ box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.75);
 .phone{
     height: 400px;
     width: auto;
-    z-index: 10;
+    z-index: 20;
+    position: relative;
 }
 .telefon{
     background: rgb(84,45,235);
@@ -117,17 +118,17 @@ footer{
 .telefon2{
     background: rgb(84,45,235);
 background: linear-gradient(90deg, rgba(84,45,235,1) 0%, rgba(158,26,226,1) 40%);
-    position: relative;
+    position: absolute;
     border: 1px solid rgba(rgb(89, 0, 255,0.1), green, blue, alpha);
-    width: 250px;
+    width: 200px;
     height: 200px;
-    z-index: 1;
+    z-index: 15;
     top: 125px;
-    right: 250px;
+    right: 50px;
     
 }
 .carpi2{
-    position: relative;
+    position: absolute;
     font-weight: bolder;
     color: blue;
     height: 10px;
@@ -140,7 +141,7 @@ background: linear-gradient(90deg, rgba(84,45,235,1) 0%, rgba(158,26,226,1) 40%)
 
 }
 .nokta2{
-    position: relative;
+    position: absolute;
     border: 1px solid blue;
     background-color: #2937F0;
     height: 15px;

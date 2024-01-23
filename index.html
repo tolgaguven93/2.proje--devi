@@ -82,8 +82,9 @@
     </div>
 </div>
 <div class="container">
-    <div class="row py-5 mx-5 justify-content-center order-1 order-md-2 phone-first">
-        <div class="col-12 col-md-4 d-flex justify-content-center "><img class="phone d-flex justify-content-center" src="/images/phone-screen.png" alt=""><div class="rounded-circle telefon2"><div class="rounded-circle nokta2"></div></div><i class="bi bi-x carpi2"><strong>X</strong></i></div>
+    <div class="row py-5 justify-content-center order-1 order-md-2 phone-first">
+        <div class="col-12 col-md-4 d-flex justify-content-center"><div style="display: inline-block; position: relative;"><img class="phone d-flex justify-content-center"  src="/images/phone-screen.png" alt=""><div class="rounded-circle telefon2"><div class="rounded-circle nokta2">
+        </div></div><i class="bi bi-x carpi2"><strong>X</strong></i></div></div>
         <div class="col-12 col-md-8">
             <div class="row hero-section">
                 <div class="col-12 col-md-6 fs-6"><img src="/images/icons8-game-50.png" alt=""><h1>Flexible Use</h1><div>Put an image, video, animation, or anything else in the screen!</div></div>
@@ -139,20 +140,20 @@
           aria-label="Close"
         ></button>
       </div>
-      <div class="modal-body border-0 p-4">
+      <div class="modal-body border-0 p-4 justify-content-center">
         <form action="https://formsubmit.co/tolgaguven630@gmail.com" method="POST">
           <input type="text" name="name" id="name" placeholder="Enter your name..." required>
           <label for="name">Full name</label>
+          <hr>
           <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
           <label for="email">E-Mail</label>
-          <br>
-          <input type="tel" name="tel" id="tel" placeholder="Telefon Numarası" required>
-          <label for="tel">Telefon Numarası</label>
-          <br>
-          <textarea name="" id="message" cols="25" rows="5"></textarea>
-          <label for="message">Mesaj Gönder</label>
-          <br>
-          <button type="submit">Send</button>
+          <hr>
+          <input type="tel" name="tel" id="tel" placeholder="Phone Number" required>
+          <label for="tel">Phone Number</label>
+          <hr>
+          <textarea name="message" id="message" cols="25" rows="5" placeholder="Send Message"></textarea>
+          <label for="message"></label>
+          <button type="button" class="btn btn-outline-secondary">Send</button>
      </form>
         
     </div>
